@@ -22,11 +22,72 @@ If you think that these can be improved in any way, please do suggest.
 
 ## Introduction
 
-TBD
+Based on informations gathered from some users I decided to make it more clear. This is my version of C++ 2020 career road. I pointed some books, but you are free to use any other sources like online courses or some academic tutorials.
 
 ## C++ Roadmap
 
-TBD
+1. Learning C Language. Not only ANSI C, just modern C. It's good to start. Here are proposal of books:
+C Programming Language (2nd Edition or newer) Brian W. Kernighan, Dennis M. Ritchie
+C Primer Plus (6th Edition or newer) (Developer's Library) Stephen Prata
+
+2. Learning C++ and how to avoid mistakes in your code. 
+Effective C++: 50 Specific Ways to Improve Your Programs and Design Scott Meyers
+
+3. Make sure that you know news related to C++11/14/17 and so on. Don't waste your time on learning C++98. It's deprecated.
+You can browse some changes here: https://github.com/AnthonyCalandra/modern-cpp-features
+If you are more advanced, you can use this book: 
+Effective Modern C++. 42 Specific Ways to Improve Your Use of C++11 and C++14 also written by Scott Meyers 
+
+4.Make sure that you are familiar with these topics: STL (Standard Template Library), synchronous computung, and more libraries. 
+Here are some sources:
+The C++ Standard Library: A Tutorial and Reference (2nd Edition)    Nicolai M. Josuttis
+C++ Concurrency in Action, 2nd Edition      Anthony Williams
+Effective STL 50 Specific Ways to Improve Your Use of the Standard Template Library Scott Meyers
+
+5. Currently there are hardly ever amount of C++17/20 courses and tutorial books. You can track these news on blogs: 
+https://www.fluentcpp.com/
+https://www.bfilipek.com/
+
+6. About Boost library the best place is Boris Schaelling's website:
+https://theboostcpplibraries.com/
+
+What's next depends on your career path.
+A) Operating system programming
+If you want to code some stuffs in Linux, best place to start is 
+Linux System Programming: Talking Directly to the Kernel and C Library, 2nd Edition by Robert Love
+And your code bible will be The Linux Programming Interface by Michael Kerrisk
+
+About Windows or Macs
+TODO
+Just it's worth to mention that learning WinApi of 32 bits is nowadays deprecated.
+
+B) Creating Graphical User Interface Application
+To create GUI (and not only) you should be familiar with one of these frameworks: Qt, wxWidgets or GTK+. Qt is the most popular.
+
+C) Creating games
+Well, you can start from OpenGl (you can start learning here: https://learnopengl.com/ )
+Or there is Vulkan API which is considered as successsor of OpenGl.
+You can start learning by choosing one of finished, well-documented and test game engines like Unreal Engine (or Cry Engine, but there are very few sources)
+
+C++ in embedded devices or financial industry
+TODO
+
+To be well-informed you should follow these websites: https://isocpp.org/ or
+https://www.reddit.com/r/cpp/ 
+
+Ofcourse there are many things that is good to know in spite of programming language like:
+- design patterns     
+Design Patterns: Elements of Reusable Object-Oriented Software
+by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+
+- clean code
+Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+
+- networking and how webs work (not only in Linux)
+
+- getting familiar with command prompt / bash or any other shell
+
+- testing your code (not only with debugger and review of changing variable values during main loop of your program).
 
 ## 🚦 Wrap Up
 
